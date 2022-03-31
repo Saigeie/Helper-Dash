@@ -1,7 +1,7 @@
 {
-  "name": "saigeapi",
+  "name": "Helper Dash",
   "version": "1.0.0",
-  "description": "",
+  "description": "✨ Helper's website & dashboard 👀",
   "main": "index.js",
   "type": "commonjs",
   "scripts": {
@@ -9,8 +9,8 @@
     "build": "tsc --project tsconfig.json",
     "repo:update": "git add . && git commit -m \"✨ Update finshed, please check the latest file in updates folder\" && git push helperweb && echo \"ShortCut: https://github.com/Saigeie/Helper-Dash\""
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["typescript","dashboard","discord.js","discord bot", "express"],
+  "author": "Saige",
   "license": "ISC",
   "dependencies": {
     "@typegoose/typegoose": "^9.7.1",
