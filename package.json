@@ -1,0 +1,32 @@
+{
+  "name": "saigeapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "dev": "ts-node-dev --rs --cls src/index.ts",
+    "build": "tsc --project tsconfig.json",
+    "repo:update": "git add . && git commit -m \"✨ Update finshed, please check the latest file in updates folder\" && git push helperweb && echo \"ShortCut: https://github.com/Saigeie/Helper-Dash\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@typegoose/typegoose": "^9.7.1",
+    "@types/axios": "^0.14.0",
+    "@types/dotenv": "^8.2.0",
+    "@types/express": "^4.17.13",
+    "axios": "^0.26.1",
+    "body-parser": "^1.19.2",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "express-rate-limit": "^6.3.0",
+    "glob": "^7.2.0",
+    "mongoose": "^6.2.8",
+    "node-fetch": "^2.6.7",
+    "rate-limit-mongo": "^2.3.2",
+    "ts-node": "^10.7.0",
+    "ts-node-dev": "^1.1.8"
+  }
+}
